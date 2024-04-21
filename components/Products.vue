@@ -14,7 +14,10 @@
           }
         }"
       >
-        <img class="rounded-2xl" src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+        <img class="rounded-2xl"
+             src="https://www.pngitem.com/pimgs/m/568-5680053_prod-placeholder-vector-product-icon-png-transparent-png.png"
+             alt="Placeholder image"
+        >
       </nuxt-link>
     </div>
     <div class="text-wrapper p-4">
@@ -55,7 +58,7 @@
             <p class="ml-2 text-lg">{{ product.reviews > 0 ? `${product.reviews} Reviews` : 'No reviews' }}</p>
           </div>
           <p class="text-3xl font-medium">
-            <strong>&euro; {{ product.price }}</strong>
+            <strong>R$ {{ product.price }}</strong>
           </p>
         </div>
         <div class="flex justify-between mt-5 items-center">
